@@ -49,7 +49,7 @@ def start():
     tidur(1)
     print("{!} Connecting On Port %s"%(port))
     tidur(1)
-    os.system("nc -l -p %s"%(port))
+    px.system("nc -l -p %s"%(port))
     
 for arg in sys.argv:
  if (arg == '-h' or arg == '--host'):
